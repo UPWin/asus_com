@@ -1,0 +1,14 @@
+apple hackintosh
+
+1. kext -wifi
+2. kext -graphics
+3. efi boot_native
+4. kext -sound
+5. boot -no_v_mode
+6. hidpi display -terminal
+>
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES
+>
+
+>zen/ryzen hackintosh
+>zen/16c-sys
